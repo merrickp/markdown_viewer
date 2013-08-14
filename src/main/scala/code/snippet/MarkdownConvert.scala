@@ -28,4 +28,8 @@ class MarkdownConvert {
         3. Item 3
         """))
 
+    def convertedurl = "#md *" #> toXHTML(knockoff(scala.io.Source.fromURL("https://raw.github.com/merrickp/markdown_viewer/master/README.md").mkString)) 
+        	
+
+        
 }
