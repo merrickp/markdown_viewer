@@ -57,6 +57,8 @@ Combined emphasis with **asterisks and _underscores_**.
 # Ordered Lists:
 
 1. Actual numbers don't matter, just that it's a number
+1. Second line item.
+1. Third line item.
     1. Ordered sub-list
 4. And another item. 
 
