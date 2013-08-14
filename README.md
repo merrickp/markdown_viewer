@@ -1,7 +1,18 @@
-Overview:
-This project contains a Lift web application that takes a markdown and translates it to HTML using the Knockoff library.
+# Markdown Viewer
 
-How to run:
-1. Download or install sbt
-    - Following the instructions for http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html
-2.
+## Overview
+
+This is a simple web application to convert Markdown to HTML that demonstrates using [Lift](http://tristanjuricek.com/knockoff) as a web framework and the [Knockoff](http://tristanjuricek.com/knockoff) library to do the conversion.
+
+## How to run
+
+1. If not already installed, download and install [sbt](http://www.scala-sbt.org/), a build tool for Java and Scala projects
+    - Follow the setup instructions: (http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html)
+
+2. Clone the repository: `# git clone git@bitbucket.org:merrickp/markdown_viewer.git`.
+
+3. In the root folder of the repository, run sbt
+
+4. Run the following command in sbt: `> container.start`. This will start the web application on port 8080.
+
+5. Navigate to http://localhost:8080 to view the result.
